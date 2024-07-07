@@ -1,0 +1,147 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 26px;
+    margin: 0px;
+}
+
+.body{
+    background-color: #F7EED3;
+    margin: 0px;
+}
+
+#nav-container{
+    background-color: #F7EED3;
+    font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; 
+    font-size: 24px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 800; 
+    line-height: 26.4px; 
+    color: #F29195;
+    margin: 0px;
+}
+
+nav {
+    margin: 0px;
+}
+
+#nav-container .nav-link {
+    color: #F29195 !important;
+    margin: 0px;
+}
+
+.navbarScroll .navbar-nav .nav-link {
+    color: #F29195 !important;
+    margin: 0px;
+}
+
+.navbarScroll .nav-item.active .nav-link {
+    color: #F29195 !important;
+    margin: 0px;
+}
+
+.navbar-toggler {
+    border-color: #F29195 !important;
+    margin: 0px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#F29195' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+    margin: 0px;
+}
+
+.hero {
+    height:100vh;
+    background-color: #F7EED3;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image {
+    height: 70vh;
+}
+
+.hero-text {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    width: 30%;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+.hero-text p {
+    padding: 0px;
+    margin: 0px;
+}
+
+#t1 {
+    font-size: 1rem;
+    color: #b5890f;
+}
+
+#t2 {
+    font-size: 0.9rem;
+    color: #c79819;
+}
+
+#t3 {
+    font-size: 0.8rem;
+    color: #D0A329;
+}
+
+#t4 {
+    font-size: 0.7rem;
+    color: #D9A822;
+}
+
+#t5 {
+    font-size: 0.6rem;
+    color: #EEBA2B;
+}
+
+#t6 {
+    font-size: 0.5rem;
+    color: #f1c13d;
+}
+
+#t7 {
+    font-size: 0.4rem;
+    color: #e3ae1e;
+}
+
+#t8 {
+    font-size: 0.3rem;
+    color: #ebb625;
+}
+
+#t9 {
+    font-size: 0.2rem;
+    color: #ecb51f;
+}
+
+#t10 {
+    font-size: 0.1rem;
+    color: #ffbb00;
+}
+
+#gold-link {
+    color: #D0A329;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+    }
+    
+    .hero-text {
+        margin-top: 20px;
+    }
+}
