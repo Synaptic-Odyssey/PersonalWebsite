@@ -55,10 +55,21 @@ nav.navbar {
 .navbar-toggler {
     border-color: #F29195 !important;
     margin: 0px;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0.25rem 0rem;
+    margin-right: auto;
 }
 
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#F29195' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-block;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23F29195' stroke-width='2.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
     margin: 0px;
 }
 
@@ -177,10 +188,10 @@ nav.navbar {
 
     .hero-text {
         padding-top: 10px;
-        width: 82%;              
+        width: 78%;              
         margin-left: 0;
         padding-bottom: 35px;
-        padding-left: 20px;     
+        padding-left: 30px;     
     }
 
 
