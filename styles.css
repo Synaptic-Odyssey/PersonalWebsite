@@ -8,7 +8,8 @@ html {
     margin: 0px;
 }
 
-.body{
+body{
+    padding-top: 5px;
     background-color: #F7EED3;
     margin: 0px;
 }
@@ -63,8 +64,10 @@ nav {
     justify-content: center;
 }
 
+
 .hero-image {
-    height: 80vh;
+    max-width: 63%;
+    height: auto;
 }
 
 .hero-text {
@@ -73,7 +76,7 @@ nav {
     font-weight: 700;
     font-style: normal;
     width: 30%;
-    margin-left: 45px;
+    margin-left: 0px;
     margin-top: 35px;
 }
 
@@ -81,6 +84,7 @@ nav {
     padding: 0px;
     margin: 0px;
 }
+
 
 #t1 {
     font-size: 1rem;
@@ -136,12 +140,32 @@ nav {
     color: #D0A329;
 }
 
+
+
 @media (max-width: 768px) {
     .hero {
-        flex-direction: column;
+        flex-direction: column;   
+        padding: 20px;            
+        text-align: center;       
     }
-    
+
+    .hero-image {
+        width: 100%;              
+    }
+
     .hero-text {
-        margin-top: 20px;
+        width: 85%;              
+        margin-left: 0;           
     }
+
+    #t1 { font-size: 1rem; }
+    #t2 { font-size: 0.95rem; }
+    #t3 { font-size: 0.9rem; }
+    #t4 { font-size: 0.85rem; }
+    #t5 { font-size: 0.8rem; }
+    #t6 { font-size: 0.75rem; }
+    #t7 { font-size: 0.7rem; }
+    #t8 { font-size: 0.65rem; }
+    #t9 { font-size: 0.6rem; }
+    #t10 { font-size: 0.55rem; }
 }
