@@ -14,6 +14,7 @@ body{
     margin: 0px;
 }
 
+
 #nav-container{
     background-color: #F7EED3;
     font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; 
@@ -28,6 +29,12 @@ body{
 
 nav {
     margin: 0px;
+}
+
+nav.navbar {
+    margin-top: 0;
+    padding-top: 0;
+    top: 0;
 }
 
 #nav-container .nav-link {
@@ -143,29 +150,38 @@ nav {
 
 
 @media (max-width: 768px) {
+    
     .hero {
         flex-direction: column;   
-        padding: 20px;            
-        text-align: center;       
+        padding: 0px;            
+        text-align: left;
+        min-height: 100vh;
+        justify-content: center;
+        height: 100%;
+
+        width: 100vw;
+        height: 100vh;     
     }
 
     .hero-image {
-        width: 100%;              
+
+        padding-top: 400px;
+        width: 95vw;  
+        height: auto;
+        /* height: 30vh;
+        width: auto; */
+        object-fit: contain;
+        margin: 0px;
+
     }
 
     .hero-text {
-        width: 85%;              
-        margin-left: 0;           
+        padding-top: 10px;
+        width: 82%;              
+        margin-left: 0;
+        padding-bottom: 35px;
+        padding-left: 20px;     
     }
 
-    #t1 { font-size: 1rem; }
-    #t2 { font-size: 0.95rem; }
-    #t3 { font-size: 0.9rem; }
-    #t4 { font-size: 0.85rem; }
-    #t5 { font-size: 0.8rem; }
-    #t6 { font-size: 0.75rem; }
-    #t7 { font-size: 0.7rem; }
-    #t8 { font-size: 0.65rem; }
-    #t9 { font-size: 0.6rem; }
-    #t10 { font-size: 0.55rem; }
+
 }
