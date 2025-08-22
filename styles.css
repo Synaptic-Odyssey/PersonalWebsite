@@ -74,7 +74,7 @@ nav.navbar {
 }
 
 .hero {
-    height:100vh;
+    height:95vh;
     background-color: #F7EED3;
     display:flex;
     flex-direction: row;
@@ -105,47 +105,47 @@ nav.navbar {
 
 
 #t1 {
-    font-size: 1rem;
+    font-size: 0.95rem;
     color: #b5890f;
 }
 
 #t2 {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     color: #c79819;
 }
 
 #t3 {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     color: #D0A329;
 }
 
 #t4 {
-    font-size: 0.7rem;
+    font-size: 0.65rem;
     color: #D9A822;
 }
 
 #t5 {
-    font-size: 0.6rem;
+    font-size: 0.55rem;
     color: #e3b024;
 }
 
 #t6 {
-    font-size: 0.5rem;
+    font-size: 0.45rem;
     color: #f1c13d;
 }
 
 #t7 {
-    font-size: 0.4rem;
+    font-size: 0.35rem;
     color: #edbc34;
 }
 
 #t8 {
-    font-size: 0.3rem;
+    font-size: 0.25rem;
     color: #ebb625;
 }
 
 #t9 {
-    font-size: 0.2rem;
+    font-size: 0.15rem;
     color: #ecb51f;
 }
 
