@@ -3,9 +3,12 @@
     box-sizing: border-box;
 }
 
+
 html {
     font-size: 26px;
     margin: 0px;
+    font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; 
+
 }
 
 body{
@@ -14,6 +17,15 @@ body{
     margin: 0px;
 }
 
+h5 {
+    color: #F29195;
+    font-size: 1rem;
+}
+
+p {
+    color: #F29195;
+    font-size: 0.5rem;
+}
 
 #nav-container{
     background-color: #F7EED3;
@@ -163,6 +175,25 @@ nav.navbar {
     transform: translateY(-5px);
     transition: transform 0.2s ease-in-out;
 }
+
+.large-text {
+    color: #F29195 !important;
+}
+
+.card{
+    background-color: #F7EED3;
+}
+
+#card-body{
+    background-color: #F7EED3;
+}
+
+.card-title {
+    font-size: 1rem;
+}
+
+
+
 
 
 
