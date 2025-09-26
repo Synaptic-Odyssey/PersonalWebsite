@@ -24,8 +24,10 @@ h5 {
 
 p {
     color: #F29195;
-    font-size: 0.6rem;
+    font-size: 0.65rem;
 }
+
+/* #e3b024 */
 
 #nav-container{
     background-color: #F7EED3;
@@ -38,6 +40,7 @@ p {
     color: #F29195;
     margin: 0px;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 nav {
