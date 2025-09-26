@@ -36,7 +36,8 @@ p {
     font-weight: 800; 
     line-height: 26.4px; 
     color: #F29195;
-    margin-top: 10px;
+    margin: 0px;
+    padding-top: 10px;
 }
 
 nav {
@@ -114,6 +115,8 @@ nav.navbar {
     padding: 0px;
     margin: 0px;
 }
+
+
 
 
 #t1 {
