@@ -187,6 +187,13 @@ nav.navbar {
     font-weight: bold;
 }
 
+
+.large-text-2 {
+    color: #F29195 !important;
+    font-weight: bold;
+    margin-top: 2.5rem;
+}
+
 .card{
     background-color: #F7EED3;
 }
