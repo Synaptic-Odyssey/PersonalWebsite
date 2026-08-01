@@ -1,81 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-    
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Kevin Chang Personal Website</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        
-        <link rel="stylesheet" href="styles.css">
-        
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-    </head>
-
-    <body>
-        <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
-            <div class="container-fluid shadow-sm" id="nav-container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Chang_Kevin_Resume.pdf" target="_blank"> Resume </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html"> Portfolio </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://github.com/Synaptic-Odyssey" target="_blank">Github</a>
-                        </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="Images/Soon, very soon.png" target="_blank">Yappings</a>
-                        </li> -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.linkedin.com/in/kevin-chang-376208253/" target="_blank">Contact</a>
-                            <!-- https://mail.google.com/mail/?view=cm&to=kevin.chang7677@gmail.com -->
-                        </li>
-                    </ul>
-                </div>
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kevin Chang — electrical engineer and product maker.">
+    <title>Kevin Chang</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="home-page">
+    <header class="site-header">
+        <a class="wordmark" href="index.html" aria-label="Kevin Chang home">Kevin Chang</a>
+        <nav class="site-nav" aria-label="Primary navigation">
+            <a class="is-current" href="index.html">Home</a>
+            <a href="portfolio.html">Projects</a>
+            <a href="Chang_Kevin_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+            <a href="https://www.linkedin.com/in/kevin-chang-376208253/" target="_blank" rel="noopener">Contact</a>
         </nav>
-        
-        <!-- TODO fix nav gap and smaller display -->
+    </header>
 
-        <section class="hero container-fluid">
-            <img src= "Images/kevin-hero-banner.png" alt="Hi, I'm Kevin Chang, and..." class="hero-image">
-                <div class="hero-text">
-                    <p id="t1">I’m a Electrical Engineering major @ UCLA passionate about product design.</p>
-                    <p id="t2"> Some of my recent creations include the Automatic Toilet Paper Folder, a cheaper way for blind people to use the internet, & Bentopad. </p>
-                    <p id="t3"> I love making silly t-shirts of my friends and teachers!</p>
-                    <p id="t4">Curious about the URL? It's because my Chinese name romanized is Chang Chang.</p>
-                    <p id="t5">Oh, and I spend an unhealthy amount of time reading (huge cosmere fan!).</p>
-                    <p id="t6"> Hence, I'm currently writing my own fantasy novel!!</p>
-                    <p id="t7">These days you’ll find me constantly experimenting on ways to 
-                        <a href="https://discord.gg/DTjcHHnCHU" target="_blank" id="gold-link">lock in</a>, such as 
-                        streaming myself on yt.</p>
-                    <p id="t8">Still reading? Why not check out some of my projects?</p>
-                    <p id="t9">Have a good day!</p>
-                    <p id="t10">Your eyesight is probably better than mine</p>
-                </div>
+    <main>
+        <section class="intro" aria-labelledby="intro-heading">
+            <p class="eyebrow">Electrical Engineering · UCLA</p>
+            <h1 id="intro-heading">Hi, I’m Kevin.</h1>
+            <div class="intro-meta">
+                <p>I’m into product design, robotics, and embodied intelligence.</p>
+                <a class="text-link" href="portfolio.html">View my projects <span aria-hidden="true">→</span></a>
+            </div>
         </section>
 
-        <!--add my room full of art for the future!-->
-        <!--https://drive.google.com/drive/folders/1S-wGJe35QPd1MZDqUIpEBHqrj64hXqpr-->
+        <section class="home-work" aria-labelledby="home-work-heading">
+            <div class="section-intro">
+                <p class="eyebrow">Selected work</p>
+                <h2 id="home-work-heading">Selected projects.</h2>
+            </div>
+            <div class="home-projects">
+                <a href="https://github.com/Synaptic-Odyssey/Tactile-Browser" target="_blank" rel="noopener">
+                    <span class="project-number">01</span>
+                    <span><strong>Tactile Browser</strong><small>An accessible, two-dimensional browser for blind people.</small></span>
+                    <b aria-hidden="true">↗</b>
+                </a>
+                <a href="https://github.com/Synaptic-Odyssey/AutomaticToiletPaperFolder_V2" target="_blank" rel="noopener">
+                    <span class="project-number">02</span>
+                    <span><strong>Automatic Toilet Paper Folder</strong><small>A machine for a task no one should have to do by hand.</small></span>
+                    <b aria-hidden="true">↗</b>
+                </a>
+                <a href="https://github.com/Synaptic-Odyssey/PCB-Business-Cards" target="_blank" rel="noopener">
+                    <span class="project-number">03</span>
+                    <span><strong>PCB Business Cards</strong><small>Custom circuit-board cards with NFC and embedded LEDs.</small></span>
+                    <b aria-hidden="true">↗</b>
+                </a>
+            </div>
+            <a class="all-projects" href="portfolio.html">See all projects →</a>
+        </section>
+    </main>
 
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
-
-
-        <!-- TODO add portfolio-->
-
-
-        <!-- TODO add footer-->
-    </body>
+    <footer class="site-footer">
+        <span>© Kevin Chang</span>
+        <a href="https://github.com/Synaptic-Odyssey" target="_blank" rel="noopener">GitHub ↗</a>
+    </footer>
+</body>
 </html>
