@@ -467,6 +467,10 @@ h1 {
     font-weight: 700;
 }
 
-.portfolio-main {
-    padding: 30px;
+
+.portfolio-heading h1 {
+    margin-top: 38px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+
 }
