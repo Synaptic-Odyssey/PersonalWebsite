@@ -35,7 +35,8 @@ h1 { font-size: clamp(3.75rem, 8.8vw, 8.35rem); }
 .hero-projects strong, .hero-projects small { display: block; }
 .hero-projects small { color: var(--pink-dark); font-size: .72rem; font-weight: 400; line-height: 1.25; margin-top: 3px; }
 .hero-projects b { font-size: .85rem; font-weight: 400; }
-.webring { border-bottom: 1px solid var(--line); border-top: 1px solid var(--line); margin-bottom: clamp(70px, 9vw, 125px); padding: 18px 0; }
+.webring { border-bottom: 1px solid var(--line); margin-bottom: clamp(70px, 9vw, 125px); padding: 18px 0; }
+/* border-top: 1px solid var(--line); */
 .webring-heading { margin-bottom: 17px; }
 .webring p { font-size: .8rem; font-weight: 800; margin: 0 0 2px; }
 .webring-window { margin: 0 -28px; overflow: hidden; }
